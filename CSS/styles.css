@@ -1,0 +1,129 @@
+body{
+    background: black url(background.jpg);
+    background-position: 0% 7%;
+}
+
+
+button{
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+/* on click */
+.greenBTN:active{
+    background: green;
+    opacity: 0.7;
+}
+.redBTN:active{
+    background: red;
+    opacity: 0.7;
+}
+.blueBTN:active{
+    background: blue;
+    opacity: 0.7;
+}
+.purpleBTN:active{
+    background: magenta;
+    opacity: 0.7;
+}
+.cyanBTN:active{
+    background: cyan;
+    opacity: 0.7;
+}
+.yellowBTN:active{
+    background: yellow;
+    opacity: 0.7;
+}
+.whiteBTN:active{
+    background: white;
+    opacity: 0.7;
+}
+.offBTN:active{
+    opacity: 0.7;
+}
+
+
+
+/* button background colors */
+.greenBTN{
+    background: green;
+    border-color: green;
+    color: green;
+}
+.redBTN{
+    background: red;
+    border-color: red;
+    color: red;
+}
+.blueBTN{
+    background: blue;
+    border-color: blue;
+    color: blue;
+}
+.purpleBTN{
+    background: magenta;
+    border-color: magenta;
+    color: magenta;
+}
+.cyanBTN{
+    background: cyan;
+    border-color: cyan;
+    color: cyan;
+}
+.yellowBTN{
+    background: yellow;
+    border-color: yellow;
+    color: yellow;
+    /* color: black; */
+}
+.whiteBTN{
+    background: white;
+    border-color: white;
+    color: white;
+    /* color: black; */
+}
+
+.offBTN{
+    color: white;
+
+}
+
+input[type="text"]{
+    background: transparent;
+    color: white;
+}
+
+.buttons{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    text-align: center;
+}
+
+#current{
+    text-align: center;
+    border: black;
+    /* border-style: solid; */
+}
+
+#currentText{
+    text-align: center;
+    border: black;
+    /* border-style: solid; */
+}
+
+/* .colorText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */

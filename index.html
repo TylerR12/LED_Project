@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Document</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-storage.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-analytics.js"></script>
+
+</head>
+<body onload="currentColor()">
+    <script src="js/colorChange.js"></script>
+
+
+    <div class="buttons">
+        <!-- with text -->
+    <!-- <button class="greenBTN" id="greenBTN" onclick="green()">Green</button>
+    <button class="redBTN" id="redBTN" onclick="red()">Red</button>
+    <button class="blueBTN" id="blueBTN" onclick="blue()">Blue</button>
+
+    <button class="purpleBTN" id="purpleBTN" onclick="purple()">Purple</button>
+    <button class="yellowBTN" id="yellowBTN" onclick="yellow()">Yellow</button>
+    <button class="cyanBTN" id="cyanBTN" onclick="cyan()">Cyan</button>
+    <button class="whiteBTN" id="whiteBTN" onclick="white()">White</button> -->
+
+    <!-- without text -->
+    <button class="greenBTN" id="greenBTN" onclick="green()">green</button>
+    <button class="redBTN" id="redBTN" onclick="red()">red</button>
+    <button class="blueBTN" id="blueBTN" onclick="blue()">blue</button>
+
+    <button class="purpleBTN" id="purpleBTN" onclick="purple()">purple</button>
+    <button class="yellowBTN" id="yellowBTN" onclick="yellow()">yellow</button>
+    <button class="cyanBTN" id="cyanBTN" onclick="cyan()">cyan</button>
+    <button class="whiteBTN" id="whiteBTN" onclick="white()">white</button>
+
+    <button class="offBTN" id="offBTN" onclick="off()">Off</button>
+    <br><br>
+    <input type="text" id="currentText" value="Current Color:" disabled>
+    <br>
+    <input type="text" id="current" value="" disabled>
+    <br>
+    <!-- <button onclick="writedata()">testing</button> -->
+    </div>
+
+    <br><br>
+
+    <div class="colorText">
+
+    </div>
+
+</body>
+</html>

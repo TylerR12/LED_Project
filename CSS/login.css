@@ -1,0 +1,131 @@
+body{
+    background: black url(background.jpg);
+    background-position: 0% 7%;
+}
+
+h2{
+    font-size: 25px;
+}
+
+div.inputs{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15%;
+    color: white;
+    opacity: 0%;
+    z-index: -1;
+    min-width: 335px;
+    min-height: 374px;
+}
+
+
+button.Welcome{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: white;
+}
+
+button.Welcome:active{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+button.submitBTN{
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+button.submitBTN:active{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#container{
+    text-align: center;
+}
+
+#create{
+    text-align: center;
+
+}
+
+#password{
+    margin-bottom: 10%;
+}
+
+#passwordCr{
+    margin-bottom: 10%;
+}
+
+input[type="text"]{
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    background: transparent;
+    border-color: white;
+    color: white;
+}
+
+input[type="text"]:focus{
+    padding: 0.5em 1.5em;
+    border-color: white;
+}
+
+button{
+    background: transparent;
+    border-color: white;
+    color: white;
+    padding: 0.7em 2.5em;
+    border-radius: 1em;
+}
+
+
+
+
+/*Create account*/
+div.createIn{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15%;
+    color: white;
+    opacity: 0%;
+    z-index: -3;
+    min-width: 335px;
+    min-height: 374px;
+
+    display: none;
+}
+
+button.create{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: white;
+
+    display: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
