@@ -108,7 +108,7 @@ function submits(){
     if (username_check == true && password_check == true) {
         console.log("success");
         console.log("---------");
-        window.open("index.html");
+        window.open("colors.html");
         window.location.reload();
     } else {
         console.log("failure");
